@@ -1,0 +1,257 @@
+﻿Win_ID;Win_Result;Win_Description;Win_Flavour;Win_Dip;Win_Cooking;Win_Hated
+WIN1;Black Pepper Wings;"""Hmm… peppery"" - Nicole Rosemary Page, Modern Family.";Sweet;Mayo;Pan Fry;Garlic
+WIN2;Pan Fried Honey Wings;Aww… you're sweet.;Sweet;Mayo;Pan Fry;Onion
+WIN3;Honey Garlic Wings;The sweetness from the honey and potency from the garlic will result in a very confusing after-meal kiss.;Sweet;Mayo;Pan Fry;Sesame
+WIN4;Pan Fried Honey Wings;Aww… you're sweet.;Sweet;Mayo;Pan Fry;Pepper
+WIN5;Sweet-and-sour Wings;It's like falling in love.;Sweet;Mayo;Deep Fry;Garlic
+WIN6;Crispy Honey Garlic Wings;It's crispy. It's buttery. It's sweet. It's garlicky. What's not to like?;Sweet;Mayo;Deep Fry;Onion
+WIN7;Crispy Honey Garlic Wings;It's crispy. It's buttery. It's sweet. It's garlicky. What's not to like?;Sweet;Mayo;Deep Fry;Sesame
+WIN8;Sweet-and-spicy Wings;No, Korea ain't the only player in this sweet-and-spicy game.;Sweet;Mayo;Deep Fry;Pepper
+WIN9;Sweet-and-spicy Baked Wings;Not as crispy but just as delicious.;Sweet;Mayo;Oven Bake;Garlic
+WIN10;Honey Baked Wings;What the difference between baked and fried honey wings? You have to turn it 180 degrees for one of them.;Sweet;Mayo;Oven Bake;Onion
+WIN11;Grilled Chicken Wings;And how is this sweet? Its glazed with buttery honey that's how.;Sweet;Mayo;Oven Bake;Sesame
+WIN12;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sweet;Mayo;Oven Bake;Pepper
+WIN13;Air Fryer Honey Soy Wings;One evidence of globalization.;Sweet;Mayo;Air Fry;Garlic
+WIN14;Air Fryer Honey Garlic Wings;You can get the full taste of honey garlic wings without it being so oily.;Sweet;Mayo;Air Fry;Onion
+WIN15;Air Fryer Honey Glazed Wings;No, that glaze you witness is not oil.;Sweet;Mayo;Air Fry;Sesame
+WIN16;Air Fryer Sweet-and-spicy Wings;Sweet, spicy, and maybe healtier?;Sweet;Mayo;Air Fry;Pepper
+WIN17;Black Pepper Chicken Wings;"""Hmm… peppery"" - Nicole Rosemary Page, Modern Family.";Sweet;Mustard;Pan Fry;Garlic
+WIN18;Pan Fried Honey Wings;Aww… you're sweet.;Sweet;Mustard;Pan Fry;Onion
+WIN19;Honey Garlic Chicken Wings;The sweetness from the honey and potency from the garlic will result in a very confusing after-meal kiss.;Sweet;Mustard;Pan Fry;Sesame
+WIN20;Pan Fried Honey Wings;Aww… you're sweet.;Sweet;Mustard;Pan Fry;Pepper
+WIN21;Sweet-and-sour Wings;It's like falling in love.;Sweet;Mustard;Deep Fry;Garlic
+WIN22;Crispy Honey Garlic Wings;It's crispy. It's buttery. It's sweet. It's garlicky. What's not to like?;Sweet;Mustard;Deep Fry;Onion
+WIN23;Crispy Honey Garlic Wings;It's crispy. It's buttery. It's sweet. It's garlicky. What's not to like?;Sweet;Mustard;Deep Fry;Sesame
+WIN24;Sweet-and-spicy Wings;No, Korea ain't the only player in this sweet-and-spicy game.;Sweet;Mustard;Deep Fry;Pepper
+WIN25;Sweet-and-spicy Baked Wings;Not as crispy but just as delicious.;Sweet;Mustard;Oven Bake;Garlic
+WIN26;Honey Baked Wings;What the difference between baked and fried honey wings? You have to turn it 180 degrees for one of them.;Sweet;Mustard;Oven Bake;Onion
+WIN27;Grilled Chicken Wings;And how is this sweet? Its glazed with buttery honey that's how.;Sweet;Mustard;Oven Bake;Sesame
+WIN28;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sweet;Mustard;Oven Bake;Pepper
+WIN29;Air Fryer Honey Soy Wings;One evidence of globalization.;Sweet;Mustard;Air Fry;Garlic
+WIN30;Air Fryer Honey Garlic Wings;You can get the full taste of honey garlic wings without it being so oily.;Sweet;Mustard;Air Fry;Onion
+WIN31;Air Fryer Honey Glazed Wings;No, that glaze you witness is not oil.;Sweet;Mustard;Air Fry;Sesame
+WIN32;Air Fryer Sweet-and-spicy Wings;Sweet, spicy, and maybe healtier?;Sweet;Mustard;Air Fry;Pepper
+WIN33;Black Pepper Chicken Wings;"""Hmm… peppery"" - Nicole Rosemary Page, Modern Family.";Sweet;Chilli;Pan Fry;Garlic
+WIN34;Pan Fried Honey Wings;Aww… you're sweet.;Sweet;Chilli;Pan Fry;Onion
+WIN35;Honey Garlic Chicken Wings;The sweetness from the honey and potency from the garlic will result in a very confusing after-meal kiss.;Sweet;Chilli;Pan Fry;Sesame
+WIN36;Pan Fried Honey Wings;Aww… you're sweet.;Sweet;Chilli;Pan Fry;Pepper
+WIN37;Sweet-and-sour Wings;It's like falling in love.;Sweet;Chilli;Deep Fry;Garlic
+WIN38;Crispy Honey Garlic Wings;It's crispy. It's buttery. It's sweet. It's garlicky. What's not to like?;Sweet;Chilli;Deep Fry;Onion
+WIN39;Crispy Honey Garlic Wings;It's crispy. It's buttery. It's sweet. It's garlicky. What's not to like?;Sweet;Chilli;Deep Fry;Sesame
+WIN40;Sweet-and-spicy Wings;No, Korea ain't the only player in this sweet-and-spicy game.;Sweet;Chilli;Deep Fry;Pepper
+WIN41;Sweet-and-spicy Baked Wings;Not as crispy but just as delicious.;Sweet;Chilli;Oven Bake;Garlic
+WIN42;Honey Baked Wings;What the difference between baked and fried honey wings? You have to turn it 180 degrees for one of them.;Sweet;Chilli;Oven Bake;Onion
+WIN43;Grilled Chicken Wings;And how is this sweet? Its glazed with buttery honey that's how.;Sweet;Chilli;Oven Bake;Sesame
+WIN44;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sweet;Chilli;Oven Bake;Pepper
+WIN45;Air Fryer Honey Soy Wings;One evidence of globalization.;Sweet;Chilli;Air Fry;Garlic
+WIN46;Air Fryer Honey Garlic Wings;You can get the full taste of honey garlic wings without it being so oily.;Sweet;Chilli;Air Fry;Onion
+WIN47;Air Fryer Honey Glazed Wings;No, that glaze you witness is not oil.;Sweet;Chilli;Air Fry;Sesame
+WIN48;Air Fryer Sweet-and-spicy Wings;Sweet, spicy, and maybe healtier?;Sweet;Chilli;Air Fry;Pepper
+WIN49;Black Pepper Chicken Wings;"""Hmm… peppery"" - Nicole Rosemary Page, Modern Family.";Sweet;Tomato;Pan Fry;Garlic
+WIN50;Pan Fried Honey Wings;Aww… you're sweet.;Sweet;Tomato;Pan Fry;Onion
+WIN51;Honey Garlic Chicken Wings;The sweetness from the honey and potency from the garlic will result in a very confusing after-meal kiss.;Sweet;Tomato;Pan Fry;Sesame
+WIN52;Pan Fried Honey Wings;Aww… you're sweet.;Sweet;Tomato;Pan Fry;Pepper
+WIN53;Sweet-and-sour Wings;It's like falling in love.;Sweet;Tomato;Deep Fry;Garlic
+WIN54;Crispy Honey Garlic Wings;It's crispy. It's buttery. It's sweet. It's garlicky. What's not to like?;Sweet;Tomato;Deep Fry;Onion
+WIN55;Crispy Honey Garlic Wings;It's crispy. It's buttery. It's sweet. It's garlicky. What's not to like?;Sweet;Tomato;Deep Fry;Sesame
+WIN56;Sweet-and-spicy Wings;No, Korea ain't the only player in this sweet-and-spicy game.;Sweet;Tomato;Deep Fry;Pepper
+WIN57;Sweet-and-spicy Baked Wings;Not as crispy but just as delicious.;Sweet;Tomato;Oven Bake;Garlic
+WIN58;Honey Baked Wings;What the difference between baked and fried honey wings? You have to turn it 180 degrees for one of them.;Sweet;Tomato;Oven Bake;Onion
+WIN59;Grilled Chicken Wings;And how is this sweet? Its glazed with buttery honey that's how.;Sweet;Tomato;Oven Bake;Sesame
+WIN60;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sweet;Tomato;Oven Bake;Pepper
+WIN61;Air Fryer Honey Soy Wings;One evidence of globalization.;Sweet;Tomato;Air Fry;Garlic
+WIN62;Air Fryer Honey Garlic Wings;You can get the full taste of honey garlic wings without it being so oily.;Sweet;Tomato;Air Fry;Onion
+WIN63;Air Fryer Honey Glazed Wings;No, that glaze you witness is not oil.;Sweet;Tomato;Air Fry;Sesame
+WIN64;Air Fryer Sweet-and-spicy Wings;Sweet, spicy, and maybe healtier?;Sweet;Tomato;Air Fry;Pepper
+WIN65;Pan Fried Buffalo Wings;Vinegar, pepper, and spice in one hot pan;Spicy;Mayo;Pan Fry;Garlic
+WIN66;Pan-Fried Hot N Spicy Wings;"There's ""hot"" and ""spicy"" in the name. Isn't that a strong enough red flag?";Spicy;Mayo;Pan Fry;Onion
+WIN67;Pan Fried Sri Lankan Devil Wings;I pity your toilet bowl.;Spicy;Mayo;Pan Fry;Sesame
+WIN68;Pan Fried Sweet-and-spicy Wings;Which one is crispier? Pan-fried or deep-fried?;Spicy;Mayo;Pan Fry;Pepper
+WIN69;Spicy Fried Wings;Your classic fried wings with a spicy twist.;Spicy;Mayo;Deep Fry;Garlic
+WIN70;Buffalo Wings;The true American experience!;Spicy;Mayo;Deep Fry;Onion
+WIN71;Buffalo Wings;The true American experience!;Spicy;Mayo;Deep Fry;Sesame
+WIN72;Sweet-and-spicy Wings;No, Korea ain't the only player in this sweet-and-spicy game.;Spicy;Mayo;Deep Fry;Pepper
+WIN73;Dry-rubbed Baked Wings;When pepper and chilli have a magical chicken baby;Spicy;Mayo;Oven Bake;Garlic
+WIN74;Baked Buffalo Wings;Something an American mom would prepare on a lazy afternoon;Spicy;Mayo;Oven Bake;Onion
+WIN75;Sticky Spicy Baked Wings;Sticky gooey spicy goodness.;Spicy;Mayo;Oven Bake;Sesame
+WIN76;Sticky Spicy Baked Wings;Sticky gooey spicy goodness.;Spicy;Mayo;Oven Bake;Pepper
+WIN77;Spicy Air Fryer Wings;The spicy goodness. Convenient too!;Spicy;Mayo;Air Fry;Garlic
+WIN78;Air Fryer Cajun Wings;How exotic!;Spicy;Mayo;Air Fry;Onion
+WIN79;Air Fryer Buffalo Wings;A modern cooking approach for a classic dish.;Spicy;Mayo;Air Fry;Sesame
+WIN80;Air Fryer Buffalo Wings;A modern cooking approach for a classic dish.;Spicy;Mayo;Air Fry;Pepper
+WIN81;Pan Fried Buffalo Wings;Vinegar, pepper, and spice in one hot pan;Spicy;Mustard;Pan Fry;Garlic
+WIN82;Pan-Fried Hot N Spicy Wings;"There's ""hot"" and ""spicy"" in the name. Isn't that a strong enough red flag?";Spicy;Mustard;Pan Fry;Onion
+WIN83;Pan Fried Sri Lankan Devil Wings;I pity your toilet bowl.;Spicy;Mustard;Pan Fry;Sesame
+WIN84;Pan Fried Sweet-and-spicy Wings;Which one is crispier? Pan-fried or deep-fried?;Spicy;Mustard;Pan Fry;Pepper
+WIN85;Spicy Fried Wings;Your classic fried wings with a spicy twist.;Spicy;Mustard;Deep Fry;Garlic
+WIN86;Buffalo Wings;The true American experience!;Spicy;Mustard;Deep Fry;Onion
+WIN87;Buffalo Wings;The true American experience!;Spicy;Mustard;Deep Fry;Sesame
+WIN88;Sweet-and-spicy Wings;No, Korea ain't the only player in this sweet-and-spicy game.;Spicy;Mustard;Deep Fry;Pepper
+WIN89;Dry-rubbed Baked Wings;When pepper and chilli have a magical chicken baby;Spicy;Mustard;Oven Bake;Garlic
+WIN90;Baked Buffalo Wings;Something an American mom would prepare on a lazy afternoon;Spicy;Mustard;Oven Bake;Onion
+WIN91;Sticky Spicy Baked Wings;Sticky gooey spicy goodness.;Spicy;Mustard;Oven Bake;Sesame
+WIN92;Sticky Spicy Baked Wings;Sticky gooey spicy goodness.;Spicy;Mustard;Oven Bake;Pepper
+WIN93;Spicy Air Fryer Wings;The spicy goodness. Convenient too!;Spicy;Mustard;Air Fry;Garlic
+WIN94;Air Fryer Cajun Wings;How exotic!;Spicy;Mustard;Air Fry;Onion
+WIN95;Air Fryer Buffalo Wings;A modern cooking approach for a classic dish.;Spicy;Mustard;Air Fry;Sesame
+WIN96;Air Fryer Buffalo Wings;A modern cooking approach for a classic dish.;Spicy;Mustard;Air Fry;Pepper
+WIN97;Pan Fried Buffalo Wings;Vinegar, pepper, and spice in one hot pan;Spicy;Chilli;Pan Fry;Garlic
+WIN98;Pan-Fried Hot N Spicy Wings;"There's ""hot"" and ""spicy"" in the name. Isn't that a strong enough red flag?";Spicy;Chilli;Pan Fry;Onion
+WIN99;Pan Fried Sri Lankan Devil Wings;I pity your toilet bowl.;Spicy;Chilli;Pan Fry;Sesame
+WIN100;Pan Fried Sweet-and-spicy Wings;Which one is crispier? Pan-fried or deep-fried?;Spicy;Chilli;Pan Fry;Pepper
+WIN101;Spicy Fried Wings;Your classic fried wings with a spicy twist.;Spicy;Chilli;Deep Fry;Garlic
+WIN102;Buffalo Wings;The true American experience!;Spicy;Chilli;Deep Fry;Onion
+WIN103;Buffalo Wings;The true American experience!;Spicy;Chilli;Deep Fry;Sesame
+WIN104;Sweet-and-spicy Wings;No, Korea ain't the only player in this sweet-and-spicy game.;Spicy;Chilli;Deep Fry;Pepper
+WIN105;Dry-rubbed Baked Wings;When pepper and chilli have a magical chicken baby;Spicy;Chilli;Oven Bake;Garlic
+WIN106;Baked Buffalo Wings;Something an American mom would prepare on a lazy afternoon;Spicy;Chilli;Oven Bake;Onion
+WIN107;Sticky Spicy Baked Wings;Sticky gooey spicy goodness.;Spicy;Chilli;Oven Bake;Sesame
+WIN108;Sticky Spicy Baked Wings;Sticky gooey spicy goodness.;Spicy;Chilli;Oven Bake;Pepper
+WIN109;Spicy Air Fryer Wings;The spicy goodness. Convenient too!;Spicy;Chilli;Air Fry;Garlic
+WIN110;Air Fryer Cajun Wings;How exotic!;Spicy;Chilli;Air Fry;Onion
+WIN111;Air Fryer Buffalo Wings;A modern cooking approach for a classic dish.;Spicy;Chilli;Air Fry;Sesame
+WIN112;Air Fryer Buffalo Wings;A modern cooking approach for a classic dish.;Spicy;Chilli;Air Fry;Pepper
+WIN113;Pan Fried Buffalo Wings;Vinegar, pepper, and spice in one hot pan;Spicy;Tomato;Pan Fry;Garlic
+WIN114;Pan-Fried Hot N Spicy Wings;"There's ""hot"" and ""spicy"" in the name. Isn't that a strong enough red flag?";Spicy;Tomato;Pan Fry;Onion
+WIN115;Pan Fried Sri Lankan Devil Wings;I pity your toilet bowl.;Spicy;Tomato;Pan Fry;Sesame
+WIN116;Pan Fried Sweet-and-spicy Wings;Which one is crispier? Pan-fried or deep-fried?;Spicy;Tomato;Pan Fry;Pepper
+WIN117;Spicy Fried Wings;Your classic fried wings with a spicy twist.;Spicy;Tomato;Deep Fry;Garlic
+WIN118;Buffalo Wings;The true American experience!;Spicy;Tomato;Deep Fry;Onion
+WIN119;Buffalo Wings;The true American experience!;Spicy;Tomato;Deep Fry;Sesame
+WIN120;Sweet-and-spicy Wings;No, Korea ain't the only player in this sweet-and-spicy game.;Spicy;Tomato;Deep Fry;Pepper
+WIN121;Dry-rubbed Baked Wings;When pepper and chilli have a magical chicken baby;Spicy;Tomato;Oven Bake;Garlic
+WIN122;Baked Buffalo Wings;Something an American mom would prepare on a lazy afternoon;Spicy;Tomato;Oven Bake;Onion
+WIN123;Sticky Spicy Baked Wings;Sticky gooey spicy goodness.;Spicy;Tomato;Oven Bake;Sesame
+WIN124;Sticky Spicy Baked Wings;Sticky gooey spicy goodness.;Spicy;Tomato;Oven Bake;Pepper
+WIN125;Spicy Air Fryer Wings;The spicy goodness. Convenient too!;Spicy;Tomato;Air Fry;Garlic
+WIN126;Air Fryer Cajun Wings;How exotic!;Spicy;Tomato;Air Fry;Onion
+WIN127;Air Fryer Buffalo Wings;A modern cooking approach for a classic dish.;Spicy;Tomato;Air Fry;Sesame
+WIN128;Air Fryer Buffalo Wings;A modern cooking approach for a classic dish.;Spicy;Tomato;Air Fry;Pepper
+WIN129;Pan Fried Lemon Wings;Who knew lemon with chicken wings are match made in kitchen heaven?;Sour;Mayo;Pan Fry;Garlic
+WIN130;Pan Fried Sweet-and-sour Wings;Sweet and sour combo in a pan.;Sour;Mayo;Pan Fry;Onion
+WIN131;Pan Fried Sweet-and-sour Wings;Sweet and sour combo in a pan.;Sour;Mayo;Pan Fry;Sesame
+WIN132;Pan Fried Lemon Wings;Who knew lemon with chicken wings are match made in kitchen heaven?;Sour;Mayo;Pan Fry;Pepper
+WIN133;Sweet-and-sour Wings;It's like falling in love.;Sour;Mayo;Deep Fry;Garlic
+WIN134;Sweet-and-sour Wings;It's like falling in love.;Sour;Mayo;Deep Fry;Onion
+WIN135;Lemon Buttermilk Fried Wings;Classic buttermilk recipe with a citrusy spin.;Sour;Mayo;Deep Fry;Sesame
+WIN136;Lemon Buttermilk Fried Wings;Classic buttermilk recipe with a citrusy spin.;Sour;Mayo;Deep Fry;Pepper
+WIN137;Sriracha Baked Wings;The best wings for sriracha lover!;Sour;Mayo;Oven Bake;Garlic
+WIN138;Sriracha Baked Wings;The best wings for sriracha lover!;Sour;Mayo;Oven Bake;Onion
+WIN139;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sour;Mayo;Oven Bake;Sesame
+WIN140;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sour;Mayo;Oven Bake;Pepper
+WIN141;Air Fryer Sweet-and-sour Wings;Love is in the corner, or inside an air fryer.;Sour;Mayo;Air Fry;Garlic
+WIN142;Air Fryer Sriracha Wings;As if normal sriracha wings ain't delicious enough. Now its healthier too!;Sour;Mayo;Air Fry;Onion
+WIN143;Air Fryer Sweet-and-sour Wings;Love is in the corner, or inside an air fryer.;Sour;Mayo;Air Fry;Sesame
+WIN144;Air Fryer Sriracha Wings;As if normal sriracha wings ain't delicious enough. Now its healthier too!;Sour;Mayo;Air Fry;Pepper
+WIN145;Pan Fried Lemon Wings;Who knew lemon with chicken wings are match made in kitchen heaven?;Sour;Mustard;Pan Fry;Garlic
+WIN146;Pan Fried Sweet-and-sour Wings;Sweet and sour combo in a pan.;Sour;Mustard;Pan Fry;Onion
+WIN147;Pan Fried Sweet-and-sour Wings;Sweet and sour combo in a pan.;Sour;Mustard;Pan Fry;Sesame
+WIN148;Pan Fried Lemon Wings;Who knew lemon with chicken wings are match made in kitchen heaven?;Sour;Mustard;Pan Fry;Pepper
+WIN149;Sweet-and-sour Wings;It's like falling in love.;Sour;Mustard;Deep Fry;Garlic
+WIN150;Sweet-and-sour Wings;It's like falling in love.;Sour;Mustard;Deep Fry;Onion
+WIN151;Lemon Buttermilk Fried Wings;Classic buttermilk recipe with a citrusy spin.;Sour;Mustard;Deep Fry;Sesame
+WIN152;Lemon Buttermilk Fried Wings;Classic buttermilk recipe with a citrusy spin.;Sour;Mustard;Deep Fry;Pepper
+WIN153;Sriracha Baked Wings;The best wings for sriracha lover!;Sour;Mustard;Oven Bake;Garlic
+WIN154;Sriracha Baked Wings;The best wings for sriracha lover!;Sour;Mustard;Oven Bake;Onion
+WIN155;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sour;Mustard;Oven Bake;Sesame
+WIN156;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sour;Mustard;Oven Bake;Pepper
+WIN157;Air Fryer Sweet-and-sour Wings;Love is in the corner, or inside an air fryer.;Sour;Mustard;Air Fry;Garlic
+WIN158;Air Fryer Sriracha Wings;As if normal sriracha wings ain't delicious enough. Now its healthier too!;Sour;Mustard;Air Fry;Onion
+WIN159;Air Fryer Sweet-and-sour Wings;Love is in the corner, or inside an air fryer.;Sour;Mustard;Air Fry;Sesame
+WIN160;Air Fryer Sriracha Wings;As if normal sriracha wings ain't delicious enough. Now its healthier too!;Sour;Mustard;Air Fry;Pepper
+WIN161;Pan Fried Lemon Wings;Who knew lemon with chicken wings are match made in kitchen heaven?;Sour;Chilli;Pan Fry;Garlic
+WIN162;Pan Fried Sweet-and-sour Wings;Sweet and sour combo in a pan.;Sour;Chilli;Pan Fry;Onion
+WIN163;Pan Fried Sweet-and-sour Wings;Sweet and sour combo in a pan.;Sour;Chilli;Pan Fry;Sesame
+WIN164;Pan Fried Lemon Wings;Who knew lemon with chicken wings are match made in kitchen heaven?;Sour;Chilli;Pan Fry;Pepper
+WIN165;Sweet-and-sour Wings;It's like falling in love.;Sour;Chilli;Deep Fry;Garlic
+WIN166;Sweet-and-sour Wings;It's like falling in love.;Sour;Chilli;Deep Fry;Onion
+WIN167;Lemon Buttermilk Fried Wings;Classic buttermilk recipe with a citrusy spin.;Sour;Chilli;Deep Fry;Sesame
+WIN168;Lemon Buttermilk Fried Wings;Classic buttermilk recipe with a citrusy spin.;Sour;Chilli;Deep Fry;Pepper
+WIN169;Sriracha Baked Wings;The best wings for sriracha lover!;Sour;Chilli;Oven Bake;Garlic
+WIN170;Sriracha Baked Wings;The best wings for sriracha lover!;Sour;Chilli;Oven Bake;Onion
+WIN171;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sour;Chilli;Oven Bake;Sesame
+WIN172;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sour;Chilli;Oven Bake;Pepper
+WIN173;Air Fryer Sweet-and-sour Wings;Love is in the corner, or inside an air fryer.;Sour;Chilli;Air Fry;Garlic
+WIN174;Air Fryer Sriracha Wings;As if normal sriracha wings ain't delicious enough. Now its healthier too!;Sour;Chilli;Air Fry;Onion
+WIN175;Air Fryer Sweet-and-sour Wings;Love is in the corner, or inside an air fryer.;Sour;Chilli;Air Fry;Sesame
+WIN176;Air Fryer Sriracha Wings;As if normal sriracha wings ain't delicious enough. Now its healthier too!;Sour;Chilli;Air Fry;Pepper
+WIN177;Pan Fried Lemon Wings;Who knew lemon with chicken wings are match made in kitchen heaven?;Sour;Tomato;Pan Fry;Garlic
+WIN178;Pan Fried Sweet-and-sour Wings;Sweet and sour combo in a pan.;Sour;Tomato;Pan Fry;Onion
+WIN179;Pan Fried Sweet-and-sour Wings;Sweet and sour combo in a pan.;Sour;Tomato;Pan Fry;Sesame
+WIN180;Pan Fried Lemon Wings;Who knew lemon with chicken wings are match made in kitchen heaven?;Sour;Tomato;Pan Fry;Pepper
+WIN181;Sweet-and-sour Wings;It's like falling in love.;Sour;Tomato;Deep Fry;Garlic
+WIN182;Sweet-and-sour Wings;It's like falling in love.;Sour;Tomato;Deep Fry;Onion
+WIN183;Lemon Buttermilk Fried Wings;Classic buttermilk recipe with a citrusy spin.;Sour;Tomato;Deep Fry;Sesame
+WIN184;Lemon Buttermilk Fried Wings;Classic buttermilk recipe with a citrusy spin.;Sour;Tomato;Deep Fry;Pepper
+WIN185;Sriracha Baked Wings;The best wings for sriracha lover!;Sour;Tomato;Oven Bake;Garlic
+WIN186;Sriracha Baked Wings;The best wings for sriracha lover!;Sour;Tomato;Oven Bake;Onion
+WIN187;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sour;Tomato;Oven Bake;Sesame
+WIN188;Sweet-and-sour Baked Wings;It's like falling in love… just with buns in the oven that’s all.;Sour;Tomato;Oven Bake;Pepper
+WIN189;Air Fryer Sweet-and-sour Wings;Love is in the corner, or inside an air fryer.;Sour;Tomato;Air Fry;Garlic
+WIN190;Air Fryer Sriracha Wings;As if normal sriracha wings ain't delicious enough. Now its healthier too!;Sour;Tomato;Air Fry;Onion
+WIN191;Air Fryer Sweet-and-sour Wings;Love is in the corner, or inside an air fryer.;Sour;Tomato;Air Fry;Sesame
+WIN192;Air Fryer Sriracha Wings;As if normal sriracha wings ain't delicious enough. Now its healthier too!;Sour;Tomato;Air Fry;Pepper
+WIN193;Pan Fried Wings;Simple and delicious.;Plain;Mayo;Pan Fry;Garlic
+WIN194;Pan Fried Wings;Simple and delicious.;Plain;Mayo;Pan Fry;Onion
+WIN195;Pan Fried Wings;Simple and delicious.;Plain;Mayo;Pan Fry;Sesame
+WIN196;Pan Fried Wings;Simple and delicious.;Plain;Mayo;Pan Fry;Pepper
+WIN197;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Mayo;Deep Fry;Garlic
+WIN198;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Mayo;Deep Fry;Onion
+WIN199;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Mayo;Deep Fry;Sesame
+WIN200;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Mayo;Deep Fry;Pepper
+WIN201;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Mayo;Oven Bake;Garlic
+WIN202;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Mayo;Oven Bake;Onion
+WIN203;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Mayo;Oven Bake;Sesame
+WIN204;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Mayo;Oven Bake;Pepper
+WIN205;Crispy Air Fryer Wings;How chic.;Plain;Mayo;Air Fry;Garlic
+WIN206;Crispy Air Fryer Wings;How chic.;Plain;Mayo;Air Fry;Onion
+WIN207;Crispy Air Fryer Wings;How chic.;Plain;Mayo;Air Fry;Sesame
+WIN208;Crispy Air Fryer Wings;How chic.;Plain;Mayo;Air Fry;Pepper
+WIN209;Pan Fried Wings;Simple and delicious.;Plain;Mustard;Pan Fry;Garlic
+WIN210;Pan Fried Wings;Simple and delicious.;Plain;Mustard;Pan Fry;Onion
+WIN211;Pan Fried Wings;Simple and delicious.;Plain;Mustard;Pan Fry;Sesame
+WIN212;Pan Fried Wings;Simple and delicious.;Plain;Mustard;Pan Fry;Pepper
+WIN213;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Mustard;Deep Fry;Garlic
+WIN214;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Mustard;Deep Fry;Onion
+WIN215;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Mustard;Deep Fry;Sesame
+WIN216;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Mustard;Deep Fry;Pepper
+WIN217;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Mustard;Oven Bake;Garlic
+WIN218;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Mustard;Oven Bake;Onion
+WIN219;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Mustard;Oven Bake;Sesame
+WIN220;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Mustard;Oven Bake;Pepper
+WIN221;Crispy Air Fryer Wings;How chic.;Plain;Mustard;Air Fry;Garlic
+WIN222;Crispy Air Fryer Wings;How chic.;Plain;Mustard;Air Fry;Onion
+WIN223;Crispy Air Fryer Wings;How chic.;Plain;Mustard;Air Fry;Sesame
+WIN224;Crispy Air Fryer Wings;How chic.;Plain;Mustard;Air Fry;Pepper
+WIN225;Pan Fried Wings;Simple and delicious.;Plain;Chilli;Pan Fry;Garlic
+WIN226;Pan Fried Wings;Simple and delicious.;Plain;Chilli;Pan Fry;Onion
+WIN227;Pan Fried Wings;Simple and delicious.;Plain;Chilli;Pan Fry;Sesame
+WIN228;Pan Fried Wings;Simple and delicious.;Plain;Chilli;Pan Fry;Pepper
+WIN229;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Chilli;Deep Fry;Garlic
+WIN230;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Chilli;Deep Fry;Onion
+WIN231;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Chilli;Deep Fry;Sesame
+WIN232;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Chilli;Deep Fry;Pepper
+WIN233;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Chilli;Oven Bake;Garlic
+WIN234;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Chilli;Oven Bake;Onion
+WIN235;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Chilli;Oven Bake;Sesame
+WIN236;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Chilli;Oven Bake;Pepper
+WIN237;Crispy Air Fryer Wings;How chic.;Plain;Chilli;Air Fry;Garlic
+WIN238;Crispy Air Fryer Wings;How chic.;Plain;Chilli;Air Fry;Onion
+WIN239;Crispy Air Fryer Wings;How chic.;Plain;Chilli;Air Fry;Sesame
+WIN240;Crispy Air Fryer Wings;How chic.;Plain;Chilli;Air Fry;Pepper
+WIN241;Pan Fried Wings;Simple and delicious.;Plain;Tomato;Pan Fry;Garlic
+WIN242;Pan Fried Wings;Simple and delicious.;Plain;Tomato;Pan Fry;Onion
+WIN243;Pan Fried Wings;Simple and delicious.;Plain;Tomato;Pan Fry;Sesame
+WIN244;Pan Fried Wings;Simple and delicious.;Plain;Tomato;Pan Fry;Pepper
+WIN245;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Tomato;Deep Fry;Garlic
+WIN246;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Tomato;Deep Fry;Onion
+WIN247;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Tomato;Deep Fry;Sesame
+WIN248;Buttermilk Fried Chicken;The entery level for western wings.;Plain;Tomato;Deep Fry;Pepper
+WIN249;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Tomato;Oven Bake;Garlic
+WIN250;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Tomato;Oven Bake;Onion
+WIN251;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Tomato;Oven Bake;Sesame
+WIN252;Crispy Baked Chicken Wings;Is there a better party food than this?;Plain;Tomato;Oven Bake;Pepper
+WIN253;Crispy Air Fryer Wings;How chic.;Plain;Tomato;Air Fry;Garlic
+WIN254;Crispy Air Fryer Wings;How chic.;Plain;Tomato;Air Fry;Onion
+WIN255;Crispy Air Fryer Wings;How chic.;Plain;Tomato;Air Fry;Sesame
+WIN256;Crispy Air Fryer Wings;How chic.;Plain;Tomato;Air Fry;Pepper
