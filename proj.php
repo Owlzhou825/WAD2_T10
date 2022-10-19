@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-<head>
+<body>
 <?php
 
     $foodType = $_GET['foodType']; #Get foodType(eg burger or pizza)
