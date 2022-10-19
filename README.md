@@ -31,3 +31,6 @@ You should see (venv) before your file path in the terminal<br />
     cd venv/Scripts<br />
     activate<br />
     cd ../..<br />
+
+If i made a mistake here: refer to this article (just the first half about setting up venv)<br />
+https://code.visualstudio.com/docs/python/tutorial-flask
