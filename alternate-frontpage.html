@@ -80,8 +80,13 @@
     <form class="container" id="quiz">
       <div class="m-3" id="question1">
         <h2 class="my-5">Pick your favourite meat!</h2>
-        <input v-for="(elem,idx) in question_option_no_obj.Q1" type="radio" class="btn-check" v-model="Q1" id="elem" value="question_options.Q1[idx]" @click="to_question2">
-        <label v-for="(elem,idx) in question_option_no_obj.Q1" class="btn btn-secondary input col-4" for="elem"><h3>{{question_options.Q1[idx]}}</h3></label>
+        <input v-for="(elem,idx) in question_option_no_obj.Q1" 
+          type="radio" class="btn-check" v-model="Q1" id="elem" 
+          value="question_options.Q1[idx]" @click="to_question2">
+        <label v-for="(elem,idx) in question_option_no_obj.Q1" 
+          class="btn btn-secondary input col-4" for="elem">
+          <h3>{{question_options.Q1[idx]}}</h3>
+        </label>
       </div>
 
 
