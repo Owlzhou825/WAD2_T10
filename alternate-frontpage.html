@@ -78,7 +78,7 @@
 
 
     <form class="container" id="quiz">
-      <div class="m-3" id="question1">
+      <div class="m-3" id="Q1">
         <h2 class="my-5">Pick your favourite meat!</h2>
         <input v-for="(elem,idx) in question_option_no_obj.Q1" 
           type="radio" class="btn-check" v-model="Q1" id="elem" 
@@ -90,7 +90,7 @@
       </div>
 
 
-      <div class="m-3" ref="question2">
+      <div class="m-3" ref="Q2">
         <h2 class="my-5">A topping you hate. Something you wouldn't even give to your worst enemy</h2>
         <input type="radio" class="btn-check" v-model="Q2" id="Q2_1" value="Pineapple" @click="to_question3">
         <label class="btn btn-secondary input col-4" for="Q2_1"><h3>Pineapple</h3></label>
@@ -101,7 +101,7 @@
         <input type="radio" class="btn-check" v-model="Q2" value="Chilli" @click="to_question3">
         <label class="btn btn-secondary input col-4"><h3>Chilli</h3></label>
       </div>
-      <div class="m-3" ref="question3">
+      <div class="m-3" ref="Q3">
         <h2 class="my-5">Pick a cheese!</h2>
         <input type="radio" class="btn-check" v-model="Q3" id="Q3_1" value="Mozzarella" @click="to_question4">
         <label class="btn btn-secondary input col-4" for="Q3_1"><h3>Mozzarella</h3></label>
@@ -112,7 +112,7 @@
         <input type="radio" class="btn-check" v-model="Q3" id="Q3_4" value="Gouda" @click="to_question4">
         <label class="btn btn-secondary input col-4" for="Q3_4"><h3>Gouda</h3></label>
       </div>
-      <div class="m-3" ref="question4">
+      <div class="m-3" ref="Q4">
         <h2 class="my-5">Another favourite type of meat? There's never too much meat</h2>
         <input type="radio" class="btn-check" v-model="Q4" id="Q4_1" value="Chicken" @click="result">
         <label class="btn btn-secondary input col-4" for="Q4_1"><h3>Chicken</h3></label>
