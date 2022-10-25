@@ -80,14 +80,17 @@
     <form class="container" id="quiz">
       <div class="m-3" id="Q1">
         <h2 class="my-5">Pick your favourite meat!</h2>
-        <input v-for="(elem,idx) in question_option_no_obj.Q1" 
-          type="radio" class="btn-check" v-model="Q1" id="elem" 
-          :value="question_options.Q1[idx]" @click="to_question2">
-        <label v-for="(elem,idx) in question_option_no_obj.Q1" 
-          class="btn btn-secondary input col-4" for="elem">
-          <h3>{{question_options.Q1[idx]}}</h3>
-        </label>
+        <span v-for="obj in question_option.Q1">
+          <input 
+            type="radio" class="btn-check" v-model="Q1" :id="obj.key" 
+            :value="obj.value" @click="to_question2">
+          <label 
+            class="btn btn-secondary input col-4" :for="obj.key">
+            <h3>{{obj.value}}</h3>
+          </label>
+        </span>
       </div>
+      
 
 
       <div class="m-3" ref="Q2">
@@ -98,8 +101,8 @@
         <label class="btn btn-secondary input col-4" for="Q2_2"><h3>Olive</h3></label>
         <input type="radio" class="btn-check" v-model="Q2" id="Q2_3" value="Bellpepper" @click="to_question3">
         <label class="btn btn-secondary input col-4" for="Q2_3"><h3>Bellpepper</h3></label>
-        <input type="radio" class="btn-check" v-model="Q2" value="Chilli" @click="to_question3">
-        <label class="btn btn-secondary input col-4"><h3>Chilli</h3></label>
+        <input type="radio" class="btn-check" v-model="Q2" id="Q2_4" value="Chilli" @click="to_question3">
+        <label class="btn btn-secondary input col-4" for="Q2_4"><h3>Chilli</h3></label>
       </div>
       <div class="m-3" ref="Q3">
         <h2 class="my-5">Pick a cheese!</h2>
@@ -144,6 +147,7 @@
 
     <script src="alternate-frontpage.js">
       //Citing https://www.w3schools.com/HOWTO/howto_js_scroll_to_top.asp
+      
 
 
     </script>

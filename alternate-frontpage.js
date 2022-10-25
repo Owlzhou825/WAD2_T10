@@ -24,23 +24,16 @@ const app2 = Vue.createApp({
           Q4:"",
           quiz_result:"",
           quiz_desc:"",
-          question_option_no_obj: 
-          {
-            Q1: ["Q1_1", "Q1_2", "Q1_3", "Q1_4"],
-            Q2: ["Q2_1", "Q2_2", "Q2_3", "Q2_4"],
-            Q3: ["Q3_1", "Q3_2", "Q3_3", "Q3_4"],
-            Q4: ["Q4_1", "Q4_2", "Q4_3", "Q4_4"]
-          },
-          // hard-coded for now, ideally should link to php file or something
-          question_options:
-          {
-            Q1: ["Pepperoni", "Beef", "Ham", "None"],
-            Q2: [],
-            Q3: [],
-            Q4: []
+          //hard coded for now
+          question_option:{
+            Q1:
+              [{key:"Q1_1", value:"Pepperoni"}, 
+              {key:"Q1_2", value: "Beef"}, 
+              {key:"Q1_3", value: "Ham"}, 
+              {key:"Q1_4", value: "None"}],
           }
         }
-    },methods:{
+},methods:{
       to_question2(){
         this.$refs["Q2"].scrollIntoView({ behavior: "smooth" });
       },
