@@ -42,13 +42,13 @@ const app2 = Vue.createApp({
         }
     },methods:{
       to_question2(){
-        this.$refs["question2"].scrollIntoView({ behavior: "smooth" });
+        this.$refs["Q2"].scrollIntoView({ behavior: "smooth" });
       },
       to_question3(){
-        this.$refs["question3"].scrollIntoView({ behavior: "smooth" });
+        this.$refs["Q3"].scrollIntoView({ behavior: "smooth" });
       },
       to_question4(){
-        this.$refs["question4"].scrollIntoView({ behavior: "smooth" });
+        this.$refs["Q4"].scrollIntoView({ behavior: "smooth" });
       },
       result(){
         this.$refs["result"].scrollIntoView({ behavior: "smooth" });
