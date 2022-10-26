@@ -1,0 +1,161 @@
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body, html {
+    height: 100%;
+  }
+
+/* .description {
+    position: relative;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+.description::before {
+    content: '';
+    background-image: url('img/westernnetic.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    position: absolute;
+    opacity: 0.3;
+}
+
+
+.content {
+    opacity: 1;
+    z-index: 99;
+} */
+
+.description {
+    position: relative; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description::before {    
+      content: "";
+      background-image: url('img/Westernnetic.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.25;
+}
+
+.content {
+  position: relative;
+  color: black;  
+  line-height: 0.9;
+  text-align: center;
+}
+
+.header {
+    height: 100px;
+    z-index: 99;
+    background: white;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.images {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#food {
+    opacity: 0.7;
+    transition: transform .5s ease;
+    transform-origin: 65% 75%;
+    cursor: pointer; 
+}
+
+.images:hover {
+    transition: transform .5s ease;
+    transform: scale(1.03);
+}
+
+#logomain {
+    opacity: 0.5;
+}
+
+#pageHeader {
+    background-image: url(img/westernnetic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#logo {
+    opacity: 1;
+    transition: transform .5s ease;
+    transform-origin: 65% 75%;
+    cursor: pointer; 
+}
+
+#logo:hover {
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+.btn {
+    border: 1px solid;
+    border-radius: 15px;
+    cursor: pointer; 
+}
+
+.btn:hover {
+    border-radius: 15px;
+    background-color: rgb(180, 179, 179);
+}
+
+.question {
+    text-align: center;
+}
+
+#topBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 12px; /* Increase font size */
+    border: 1px solid;
+    border-radius: 15px;
+  }
+  
+  #topBtn:hover {
+    border-radius: 15px;
+    background-color: aqua;
+  }
+
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
