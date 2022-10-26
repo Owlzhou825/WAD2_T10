@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </head>
+    <body>
+        <p id="resName"><br>
+        <p id="hours"><br>
+        <p id="img"><br>
+        <script>
+                //Geolocation API
+                /*axios
+                  .get('http://ip-api.com/json/24.48.0.1')
+                  .then((resp) => {
+                    getLocale(resp.data);
+                  })
+                  .catch((err) => {
+                    console.log(err.message);
+                  });*/
+                
+                //Invoke Google Maps API
+                $query='q=Coffee&';//retrieve from php file foodName
+                $location='ll=%401.4304%2C103.8354%2C15z&';//currently hardcoded
+                $api_key='api_key=8e365c1c857ef28683f96abda3b5b5e2f88c1b69cea158dcb1ca04f63b423ec9';
+                $url='https://serpapi.com/search.json?engine=google_maps&'+$query+$location+'google_domain=google.com&hl=en&type=search&'+$api_key;
+                axios
+                  .get($url)
+                  .then((resp) => {
+                    restaurantName = resp.data.local_results[0].title;
+                    operatingHours = resp.data.local_results[0].hours;
+                    //img = resp.data.local_results[0].thumbnail; 
+                    //console.log(img);image not working
+                    document.getElementById("resName").innerText= restaurantName;
+                    document.getElementById("hours").innerText= operatingHours;
+                    //document.getElementById("img").src = img;
+                  })
+                  .catch((err) => {
+                    console.log(err.message);
+                  });
+        </script>
+        </body>
+</html>
