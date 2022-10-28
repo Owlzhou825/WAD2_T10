@@ -105,7 +105,7 @@ const app2 = Vue.createApp({
 
                         restaurantName = restaurantName === undefined ? "" : restaurantName;
                         rating = rating === undefined ? "0" : rating;
-                        address = address === undefined ? "" : open_state;
+                        address = address === undefined ? "" : address;
                         open_state = open_state === undefined ? "" : open_state;
                         phone = phone === undefined ? "" : phone;
                         website = website === undefined? "#" : website;
@@ -138,7 +138,7 @@ const app2 = Vue.createApp({
 
                         restaurantName = restaurantName === undefined ? "" : restaurantName;
                         rating = rating === undefined ? "0" : rating;
-                        address = address === undefined ? "" : open_state;
+                        address = address === undefined ? "" : address;
                         open_state = open_state === undefined ? "" : open_state;
                         phone = phone === undefined ? "" : phone;
                         website = website === undefined? "#" : website;
