@@ -6,7 +6,7 @@
 -Remember to create a virtual environment for your python file (make sure your interpreter--- coloured bar down below (usually says like python 3.10.7 64-bit), is on python)<br />
     Type into terminal:<br />
         <!-- create venv -->
-        py -m venv venv <br />
+        py -3 -m venv .venv <br />
         <!-- access the activate script in the scripts folder -->
         cd venv/Scripts<br />
         activate<br />
