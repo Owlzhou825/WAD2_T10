@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Westernnetic</title>
+    <link rel="icon" href="../Images/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--Axios AJAX-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- Vue3 CDN -->
+    <script src="https://unpkg.com/vue@next"></script>
+
+    <link rel="stylesheet" href="../Scripts/style.css">
+
+  </head>
+  <body>
+    <div style="height: 100px;background-color:grey;">
+      <a style="text-decoration: none;position: absolute;left: 50%;transform: translateX(-50%);" href="categories.html">
+      <img src="../Images/logo.png" width="200px" height="200px">
+      </a>
+    </div>
+    <div style="height: 100px;"></div>
+
+    <div class="container py-5 my-5" id="title" style="background-image: url('../Images/pizza_title.png') ;">
+      <h1 class="display-3">What kind of pizza do you like?</h1>
+    </div>
+
+
+    <form class="container" id="quiz">
+      <div class="m-3" id="Q1" ref="Q1">
+        <h2 class="my-5">Pick your favourite meat!</h2>
+        <span v-for="obj in question_option.Q1">
+          <input 
+            type="radio" class="btn-check" v-model="Q1" :id="obj.key" 
+            :value="obj.value" @click="to_question2">
+          <label 
+            class="btn btn-secondary input col-4" :for="obj.key">
+            <h3>{{obj.value}}</h3>
+          </label>
+        </span>
+      </div>
+
+      <div class="m-3" id="Q2" ref="Q2">
+        <h2 class="my-5">Pick your favourite meat!</h2>
+        <span v-for="obj in question_option.Q2">
+          <input 
+            type="radio" class="btn-check" v-model="Q2" :id="obj.key" 
+            :value="obj.value" @click="to_question3">
+          <label 
+            class="btn btn-secondary input col-4" :for="obj.key">
+            <h3>{{obj.value}}</h3>
+          </label>
+        </span>
+      </div>
+
+      <div class="m-3" id="Q3" ref="Q3">
+        <h2 class="my-5">Pick your favourite meat!</h2>
+        <span v-for="obj in question_option.Q3">
+          <input 
+            type="radio" class="btn-check" v-model="Q3" :id="obj.key" 
+            :value="obj.value" @click="to_question4">
+          <label 
+            class="btn btn-secondary input col-4" :for="obj.key">
+            <h3>{{obj.value}}</h3>
+          </label>
+        </span>
+      </div>
+
+      <div class="m-3" id="Q4" ref="Q4">
+        <h2 class="my-5">Pick your favourite meat!</h2>
+        <span v-for="obj in question_option.Q4">
+          <input 
+            type="radio" class="btn-check" v-model="Q4" :id="obj.key" 
+            :value="obj.value" @click="to_question4">
+          <label 
+            class="btn btn-secondary input col-4" :for="obj.key">
+            <h3>{{obj.value}}</h3>
+          </label>
+        </span>
+      </div>
+      
+      <div id="submit">
+        <label class="btn btn-secondary btn-lg m-5" v-on:click="result">Submit your options!</label>
+      </div>
+
+      <div class="container m-3" ref="result" id="result">
+        <div class="row g-3">
+          <div class="col-lg-6">
+            <div class="result_box w-85 p-5 h-100">
+              <div class="container w-85 p-5">
+                <div class="container">
+                  <img :src="quiz_image" class="img-fluid" id="image_result"/>
+                </div>
+                <div class="p-5">
+                  <h3>{{quiz_result}}</h3>
+                  <p>{{quiz_desc}}</p>
+                </div>
+                <div>
+                  <button type="reset" class="btn btn-secondary btn-lg" onclick="restart()">Start a new quiz!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="result_box w-85 p-5 h-100">
+              <div class="container w-85 p-5">
+                <h3>Restaurants near you with your pizza:</h3>
+              </div>
+              <div class="list-group" id="api_list" style="text-align:left;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Page Top</button>
+    <script src="../Scripts/scrollUpButton.js"></script>
+    <script src="../Scripts/_pizza.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
