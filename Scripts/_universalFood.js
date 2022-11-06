@@ -109,10 +109,13 @@ function restart() {
                   const api_location = '&ll=@'+lat+','+long+',15.1z&';
                   const api_key ='api_key=deef87ca117c8d3205a10106b24a953737416128acc78b7b14dd41d332b04180';
                   const api_url ='https://serpapi.com/search.json?engine=google_maps&'+api_query+api_location+'google_domain=google.com&hl=en&type=search&'+api_key;
+
+                  var api_list = "<div><p style='text-align:center; font-weight:bold'>Finding the restaurant now. Hold on...</p></div>";
+                  document.getElementById("api_list").innerHTML = api_list;
                   axios
                     .get(api_url)
                     .then((resp) => {
-                      var api_list = "";
+                      api_list = "";
                       var data = resp.data.local_results;
                       if(data.length >= 5){
                         for(var row = 0; row < 5; row++){
