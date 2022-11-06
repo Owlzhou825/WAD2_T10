@@ -12,19 +12,19 @@
     </head>
     <body>
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top Page</button>
-        <div id="categories">
-            <div style="height: 100px;background-color:grey;" :load="initialise()">
-                <a style="text-decoration: none;position: absolute;left: 50%;transform: translateX(-50%);" href="main.html">
+        
+        <div style="height: 100px;background-color:grey;" >
+            <a style="text-decoration: none;position: absolute;left: 50%;transform: translateX(-50%);" href="main.html">
                 <img src="../Images/logo.png" width="200px" height="200px">
-                </a>
-            </div>
-            <div style="height: 100px;"></div>
+            </a>
+        </div>
+        <div style="height: 100px;"></div>
     
-            <div class="container question py-3">
-                <h1 class="display-3">Pick your Poison!</h1>
-            </div>
-    
-            <div class="container-xxl text-center">
+        <div class="container question py-3">
+            <h1 class="display-3">Pick your Poison!</h1>
+        </div>
+        <div id="categories">
+            <div class="container-xxl text-center" :load="initialise()">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center p-5">
                     <div v-for="(imgUrl, foodType) in this.food_img" :key="foodType" class="container images">
                         <div @click="redirectPage(foodType)">
