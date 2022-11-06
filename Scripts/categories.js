@@ -13,9 +13,8 @@ createApp
     {
         initialise()
         {
-            food_cat_arr = JSON.parse(sessionStorage.getItem("food_cat_arr"))
-            for (idx in food_cat_arr) {
-                foodType = food_cat_arr[idx]
+            options_for_food_type = JSON.parse(sessionStorage.getItem("options_for_food_type"))
+            for (foodType in options_for_food_type) {
                 key = foodType.charAt(0).toUpperCase() + foodType.slice(1)
                 this.food_img[key] = `../Images/${foodType}.png`
             }
