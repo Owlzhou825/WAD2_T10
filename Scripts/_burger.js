@@ -86,7 +86,7 @@ const app2 = Vue.createApp({
 
                 const api_query ='q=' + response.data["Bur_Result"] + '&';
                 const api_location = '&ll=@'+lat+','+long+',15.1z&';
-                const api_key ='api_key=8e365c1c857ef28683f96abda3b5b5e2f88c1b69cea158dcb1ca04f63b423ec9';
+                const api_key ='api_key=deef87ca117c8d3205a10106b24a953737416128acc78b7b14dd41d332b04180';
                 const api_url ='https://serpapi.com/search.json?engine=google_maps&'+api_query+api_location+'google_domain=google.com&hl=en&type=search&'+api_key;
                 axios
                   .get(api_url)
