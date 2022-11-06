@@ -24,7 +24,7 @@
             <h1 class="display-3">Pick your Poison!</h1>
         </div>
         <div id="categories">
-            <div class="container-xxl text-center" :load="initialise()">
+            <div class="container-xxl text-center" :load="initialise">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center p-5">
                     <div v-for="(imgUrl, foodType) in this.food_img" :key="foodType" class="container images">
                         <div @click="redirectPage(foodType)">

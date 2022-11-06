@@ -11,6 +11,15 @@ createApp
     },
     methods: 
     {
+        redirectPage(foodType)
+        {            
+            global_food_type = foodType.toLowerCase();
+            sessionStorage.setItem("food_cat", global_food_type);
+            window.location.href = "universalFood.html";
+        }
+    },
+    computed:
+    {
         initialise()
         {
             options_for_food_type = JSON.parse(sessionStorage.getItem("options_for_food_type"))
@@ -19,11 +28,5 @@ createApp
                 this.food_img[key] = `../Images/${foodType}.png`
             }
         },
-        redirectPage(foodType)
-        {            
-            global_food_type = foodType.toLowerCase();
-            sessionStorage.setItem("food_cat", global_food_type);
-            window.location.href = "universalFood.html";
-        }
-    },
+    }
 }).mount('#categories')
