@@ -1,4 +1,4 @@
-p {
+p, .category-button {
     font-family:Arial, Helvetica, sans-serif;
     color: black;
     font-weight: bold;
@@ -143,19 +143,6 @@ img {
 /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
     padding-top: 102px;
-}
-
-.category-button {
-    font-family:Arial, Helvetica, sans-serif;
-    color: black;
-    font-weight: bold;
-    font-size: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(182, 182, 182, 0.6);
-    border-radius: 10px;
 }
 
 
