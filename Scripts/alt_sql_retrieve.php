@@ -1,5 +1,5 @@
 <?php
-    include('sql_statements.php');
+    include('../Data/sqlStatements.php');
     $foodType = $_GET['foodType']; #Get foodType(eg burger or pizza)
     # Step 1: Connect to database
     $dsn = "mysql:host=localhost;dbname=quiz;port=3306";
