@@ -1,3 +1,5 @@
+use quiz;
+
 INSERT INTO pizza VALUES
  ('PIZ1','Chicken Pepperoni Pizza','You are rebellious, but you also want something basic in your life. Who knows chicken comes in pepperoni form?','Pepperoni','Pineapple','Mozzarella','Chicken')
 ,('PIZ2','Supreme Pizza','All hail The Supreme! Your taste in pizza is as impeccable as you.','Pepperoni','Pineapple','Mozzarella','Bacon')
