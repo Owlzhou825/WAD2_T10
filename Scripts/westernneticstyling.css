@@ -144,3 +144,23 @@ img {
 .sticky + .content {
     padding-top: 102px;
 }
+
+.btn {
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(182, 182, 182, 0.6);
+    border-radius: 10px;
+}
+
+
+
+
+
+
+

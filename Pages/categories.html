@@ -30,7 +30,7 @@
                         <div @click="redirectPage(foodType)">
                             <div class="col">
                                 <img id="food" :src="arr[1]">
-                                <p>{{foodType}}</p>
+                                <div class="btn" @click="redirectPage(foodType)">{{foodType}}</div>
                             </div>
                         </div>
                     </div>
