@@ -26,10 +26,10 @@
     
             <div class="container-xxl text-center">
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 justify-content-center p-5">
-                    <div v-for="(arr, foodType) in this.food_href_and_img" :key="foodType" class="container images">
+                    <div v-for="(imgUrl, foodType) in this.food_img" :key="foodType" class="container images">
                         <div @click="redirectPage(foodType)">
                             <div class="col">
-                                <img id="food" :src="arr[1]">
+                                <img id="food" :src="imgUrl">
                                 <div class="btn category-button" @click="redirectPage(foodType)">{{foodType}}</div>
                             </div>
                         </div>

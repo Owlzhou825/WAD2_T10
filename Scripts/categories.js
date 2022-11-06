@@ -6,7 +6,7 @@ createApp
     {
         return {
             chosen_food_cat: "",
-            food_href_and_img: {}
+            food_img: {}
         }
     },
     methods: 
@@ -17,14 +17,14 @@ createApp
             for (idx in food_cat_arr) {
                 foodType = food_cat_arr[idx]
                 key = foodType.charAt(0).toUpperCase() + foodType.slice(1)
-                this.food_href_and_img[key] = [`${foodType}.html`, `../Images/${foodType}.png`]
+                this.food_img[key] = `../Images/${foodType}.png`
             }
         },
         redirectPage(foodType)
         {            
             global_food_type = foodType.toLowerCase();
             sessionStorage.setItem("food_cat", global_food_type);
-            window.location.href = this.food_href_and_img[foodType][0];
+            window.location.href = "universalFood.html";
         }
     },
 }).mount('#categories')

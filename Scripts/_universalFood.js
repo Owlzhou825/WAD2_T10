@@ -16,6 +16,7 @@ function restart() {
             quiz_result:"",
             quiz_desc:"",
             quiz_image:"",
+            question_list: [],
             question_option:{
               Q1:
                 [{key:"Q1_1", value:""}, 
@@ -42,12 +43,17 @@ function restart() {
       },methods:{
         initialise(){
           this.foodType = sessionStorage.getItem("food_cat")
-          let options_for_food_type = JSON.parse(sessionStorage.getItem("options_for_food_type"))
-          for (question in this.question_option) {
-            question_arr = this.question_option[question]
-            for (idx in question_arr) {
-              option = question_arr[idx]
-              option.value = options_for_food_type[this.foodType][question][idx]
+          let options_for_food_type = JSON.parse(sessionStorage.getItem("options_for_food_type"))[this.foodType]
+          for (question_no in this.question_option) {
+            if (this.question_list.length < 4) {
+              question_arr = this.question_option[question_no]
+              question_text = options_for_food_type[question_no].question
+              this.question_list.push(question_text)
+              for (idx in question_arr) {
+                option = question_arr[idx]
+                option_arr = options_for_food_type[question_no].options
+                option.value = option_arr[idx]
+              }
             }
           }
         },
