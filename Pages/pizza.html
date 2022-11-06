@@ -29,7 +29,7 @@
 
 
     <form class="container" id="quiz">
-      <div class="m-3" id="Q1" ref="Q1">
+      <div class="m-3" id="Q1" ref="Q1" :load="initialise()">
         <h2 class="my-5">Pick your favourite meat!</h2>
         <span v-for="obj in question_option.Q1">
           <input 
@@ -118,7 +118,7 @@
 
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top Page</button>
     <script src="../Scripts/scrollUpButton.js"></script>
-    <script src="../Scripts/_pizza.js"></script>
+    <script src="../Scripts/_universalFood.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
   </body>
 </html>
