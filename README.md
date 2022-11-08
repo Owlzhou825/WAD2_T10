@@ -16,7 +16,7 @@
 </p>
 <h4>Notes:</h4>
 <p>
-  - Do not remove, edit,or change any file/folder
+  - Do not remove, edit,or change any file/folder </br>
   - Geolocation API is required. Do click "allow" when Google Chrome pops up the "Allow Location?" alert.
 </p>
 
