@@ -12,7 +12,8 @@
 </p>
 <h4>3. Start the webpage</h4>
 <p>
-  - Open the 'main.html' in the 'Pages" folder
+  - Switch on WAMP/MAMP services
+  - Open the 'main.html' in the 'Pages' via localhost directory
 </p>
 <h4>Notes:</h4>
 <p>
