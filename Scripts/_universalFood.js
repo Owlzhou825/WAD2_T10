@@ -88,7 +88,7 @@ function restart() {
   
                   const api_query ='q=' + response.data[`${foodType_shorthand}_Result`] + '&';
                   const api_location = '&ll=@'+lat+','+long+',15.1z&';
-                  const api_key ='api_key=deef87ca117c8d3205a10106b24a953737416128acc78b7b14dd41d332b04180';
+                  const api_key ='api_key=3b04a243f1aa5d7e4234bd32faefda76b61fe63ec37d12c929c62662ec4842c5';
                   const api_url ='https://serpapi.com/search.json?engine=google_maps&'+api_query+api_location+'google_domain=google.com&hl=en&type=search&'+api_key;
 
                   var api_list = "<div><p style='text-align:center; font-weight:bold'>Finding the restaurant now. Hold on...</p></div>";
@@ -112,7 +112,7 @@ function restart() {
                           address = address === undefined ? "" : address;
                           open_state = open_state === undefined ? "" : open_state;
                           phone = phone === undefined ? "" : phone;
-                          website = website === undefined? "#" : website;
+                          website = website === undefined? "noWebsite.html" : website;
     
                           api_list += `
                             <a href="`+website+`" class="list-group-item list-group-item-action" target="_blank">
@@ -145,7 +145,7 @@ function restart() {
                           address = address === undefined ? "" : address;
                           open_state = open_state === undefined ? "" : open_state;
                           phone = phone === undefined ? "" : phone;
-                          website = website === undefined? "javascript:noWebsite()" : website;
+                          website = website === undefined? "noWebsite.html" : website;
     
                           api_list += `
                             <a href="`+website+`" class="list-group-item list-group-item-action" target="_blank">
@@ -198,7 +198,3 @@ function restart() {
       }
   })
   const vm = app2.mount('#quiz');
-
-  function noWebsite(){
-    alert("Sorry, there is no website for that! Try clicking another restaurant.")
-  }
