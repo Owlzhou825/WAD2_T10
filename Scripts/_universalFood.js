@@ -145,7 +145,7 @@ function restart() {
                           address = address === undefined ? "" : address;
                           open_state = open_state === undefined ? "" : open_state;
                           phone = phone === undefined ? "" : phone;
-                          website = website === undefined? "#" : website;
+                          website = website === undefined? "javascript:noWebsite()" : website;
     
                           api_list += `
                             <a href="`+website+`" class="list-group-item list-group-item-action" target="_blank">
@@ -198,3 +198,7 @@ function restart() {
       }
   })
   const vm = app2.mount('#quiz');
+
+  function noWebsite(){
+    alert("Sorry, there is no website for that! Try clicking another restaurant.")
+  }
