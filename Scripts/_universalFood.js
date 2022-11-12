@@ -9,6 +9,7 @@ function restart() {
       data() {
           return {
             foodType: "",
+            foodTitle:"",
             Q1:"",
             Q2:"",
             Q3:"",
@@ -85,6 +86,9 @@ function restart() {
                   document.getElementById("api_list").innerHTML = "";
                   lat = position.coords.latitude;
                   long = position.coords.longitude;
+
+                  console.log("latitude: " + lat);
+                  console.log("Longitude: " + long);
   
                   const api_query ='q=' + response.data[`${foodType_shorthand}_Result`] + '&';
                   const api_location = '&ll=@'+lat+','+long+',15.1z&';
@@ -182,7 +186,8 @@ function restart() {
       },
       computed: {
         initialise(){
-            this.foodType = sessionStorage.getItem("food_cat")
+            this.foodType = sessionStorage.getItem("food_cat");
+            this.foodTitle = "../Images/" + sessionStorage.getItem("food_cat") + "_title.png";
             let options_for_food_type = JSON.parse(sessionStorage.getItem("options_for_food_type"))[this.foodType]
             for (question_no in this.question_option) {
               question_arr = this.question_option[question_no]
