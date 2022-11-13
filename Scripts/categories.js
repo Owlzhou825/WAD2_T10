@@ -25,7 +25,7 @@ createApp
             options_for_food_type = JSON.parse(sessionStorage.getItem("options_for_food_type"))
             for (foodType in options_for_food_type) {
                 key = foodType.charAt(0).toUpperCase() + foodType.slice(1)
-                this.food_img[key] = `../Images/${foodType}.png`
+                this.food_img[key] = `Images/${foodType}.png`
             }
         },
     }

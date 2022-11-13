@@ -70,7 +70,7 @@ function restart() {
                 foodType_shorthand = this.foodType.charAt(0).toUpperCase() + this.foodType.slice(1,3);
                 this.quiz_result = response.data[`${foodType_shorthand}_Result`];
                 this.quiz_desc = response.data[`${foodType_shorthand}_Description`];
-                this.quiz_image = `../Images/${this.foodType}/` + response.data[`${foodType_shorthand}_Result`] + ".png";
+                this.quiz_image = `Images/${this.foodType}/` + response.data[`${foodType_shorthand}_Result`] + ".png";
   
                 /*API*/
                 var lat = "";
@@ -187,7 +187,7 @@ function restart() {
       computed: {
         initialise(){
             this.foodType = sessionStorage.getItem("food_cat");
-            this.foodTitle = "../Images/" + sessionStorage.getItem("food_cat") + "_title.png";
+            this.foodTitle = "Images/" + sessionStorage.getItem("food_cat") + "_title.png";
             let options_for_food_type = JSON.parse(sessionStorage.getItem("options_for_food_type"))[this.foodType]
             for (question_no in this.question_option) {
               question_arr = this.question_option[question_no]
