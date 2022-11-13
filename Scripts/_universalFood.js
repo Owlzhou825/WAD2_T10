@@ -56,7 +56,7 @@ function restart() {
             alert("Answer all the questions sweetie! I ain't got no premonition skill.");
           }else{
             //PHP
-            const url = '../Scripts/alt_sql_retrieve.php';
+            const url = 'Scripts/alt_sql_retrieve.php';
             const data = { foodType: this.foodType,
                            Q1: this.Q1,
                            Q2: this.Q2,
